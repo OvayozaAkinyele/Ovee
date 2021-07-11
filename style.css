@@ -1,0 +1,67 @@
+body {
+background-image: url(/img/counterbag.jpg);
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-self: center;
+padding-top: 80px;
+padding-bottom: 20px;;
+}
+
+#main {
+   display: flex;
+    justify-content: center;
+    align-self: center;
+border: 2px solid white;
+
+
+}
+
+.cot {
+     border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px;
+    
+    
+}
+
+#info {
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+#num {
+    font-size: 60px;
+}
+
+button {
+    padding: 12px 0;
+    font-size: 13px;
+    background-color: rgb(24, 24, 80);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: light;
+    margin: 20px ;
+    cursor: pointer; 
+    width: 100px;
+    line-height: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+  h1 {
+  color: white;
+}
+
+  h2 {
+  color: green;
+  
+}
